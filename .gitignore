@@ -1,0 +1,66 @@
+# === Tool outputs (never commit) ============================================
+*.csv
+attachments/
+_pff_export/
+_pff_export.export/
+_pff_export.recovered/
+*_attachments/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+analysis_report.txt
+*_report.txt
+
+# === Input evidence (never commit) ==========================================
+*.pst
+*.ost
+*.pab
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.xlsx
+*.docx
+*.pdf
+
+# === Python cruft ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+# === Editor / OS noise =======================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Logs and temp files =====================================================
+*.log
+*.tmp
+*.bak
+*.old
